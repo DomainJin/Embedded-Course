@@ -51,6 +51,7 @@ typedef enum
 
 // Function prototypes
 
+void GPIO_Init(void);
 void Leds_Init(void);
 void Led_Ctrl(led_t led, led_state_t state);
 void PA0_input_Init(void);
